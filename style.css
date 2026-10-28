@@ -70,24 +70,25 @@ footer {
 
 /* @media screen and (max-width: 600px) means: 
    Apply these styles ONLY when the screen width is 600 pixels or smaller (like a smartphone) */
+/* --- Mobile Responsive Styling --- */
 @media screen and (max-width: 600px) {
-
-  /* Stack navigation links vertically on mobile */
   nav {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  /* Adjust section padding for smaller screens */
   section {
     padding: 15px;
     margin: 10px;
   }
 
-  /* Make header titles fit comfortably on phone screens */
   header h1 {
-    font/* Dark Mode Theme Styles */
+    font-size: 1.8rem;
+  }
+}
+
+/* --- Dark Mode Theme Styles --- */
 body.dark-mode {
   background-color: #121212;
   color: #ffffff;
@@ -101,6 +102,4 @@ body.dark-mode section {
 
 body.dark-mode header {
   background-color: #0d47a1;
-}-size: 1.8rem;
-  }
 }
